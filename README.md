@@ -1,4 +1,4 @@
-# Insider QA Automation Project
+# Insider QA Automation Project - Ogulcan Firat, ogulcanfrat35@gmail.com
 
 This project implements an end-to-end automated testing solution for the Insider career page using Playwright and Python.
 
