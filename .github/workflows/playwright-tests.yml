@@ -25,7 +25,8 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest --html=reports/report.html --self-contained-html
+          REPORT_NAME=reports/report_$(date +'%Y%m%d_%H%M').html
+          pytest --html=$REPORT_NAME --self-contained-html
 
       - name: Upload report
         if: always()
